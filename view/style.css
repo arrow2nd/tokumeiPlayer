@@ -1,0 +1,78 @@
+body{
+     background-color: #080808f3;
+     color: #fdffff;
+     -webkit-user-select: none;
+     -webkit-app-region: drag;
+}
+
+input {
+    -webkit-app-region: no-drag;
+    outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#inputArea {
+    background-color: rgba(25, 25, 25, 0.4);
+    color: #757575;
+    text-align: center;
+    width: 80px;
+    border: none;
+    position: absolute;
+    top: 17px;
+    left: 85px;
+}
+
+#seekbar[type="range"] {
+    -webkit-appearance: none;
+    -webkit-app-region: no-drag;
+    appearance: none;
+    background-color: #6969698c;
+    height: 2px;
+    width: 95%;
+    border-radius: 6px;
+    position: relative;
+    top: 22px;
+    left: 4px;
+}
+#seekbar[type="range"]:focus,
+#seekbar[type="range"]:active {
+    outline: none;
+}
+#seekbar[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border: 1px solid #444343;
+    background-color: #696969;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#exitButton {
+    position: absolute;
+    top: 5px;
+    left: 235px;
+}
+ 
+#searchButton {
+    margin-right: 10px;
+}
+
+#shuffleButton {
+    margin-left: 10px;
+    filter: brightness(0.5);
+}
+
+.mainButton {
+    text-align: center;
+    margin-top: 26px;
+}

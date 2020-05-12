@@ -1,0 +1,14 @@
+{
+  "name": "tokumeiplayer",
+  "version": "1.0.3",
+  "description": "Webラジオ「匿名ラジオ」を再生する非公式のソフトウェアです",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1"
+  }
+}

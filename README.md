@@ -15,3 +15,4 @@ Webラジオ「匿名ラジオ」を再生する非公式のソフトウェア�
 
 ## 使用している素材
 - ICOOON MONO様: https://icooon-mono.com
+- Googleマテリアルアイコン: https://google.github.io/material-design-icons/

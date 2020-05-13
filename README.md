@@ -1,6 +1,6 @@
 # 匿名Player
 
-Webラジオ「匿名ラジオ」を再生する非公式のソフトウェアです。
+Webラジオ「匿名ラジオ」を再生する非公式のアプリケーションです。
 ブラウザを開かずに垂れ流したかったので作りました。
 
 - Releases: https://github.com/arrow2nd/tokumeiPlayer/releases

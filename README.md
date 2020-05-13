@@ -3,7 +3,9 @@
 Webラジオ「匿名ラジオ」を再生する非公式のソフトウェアです。
 ブラウザを開かずに垂れ流したかったので作りました。
 
-![image](https://user-images.githubusercontent.com/44780846/81646842-ece18880-9466-11ea-8ff5-cbd5c90351c1.png)
+- Releases: https://github.com/arrow2nd/tokumeiPlayer/releases
+
+![image](https://user-images.githubusercontent.com/44780846/81769975-e3fdbf00-9519-11ea-979c-6b1325869325.png)
 
 ## 動作環境
 - Windows 10 64bit

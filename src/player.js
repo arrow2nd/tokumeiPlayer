@@ -21,7 +21,7 @@ const seekbarUpdate = () => {
 };
 
 // 最新回を取得
-let latestRadioNumber = 198;
+let latestRadioNumber = 200; // 取得に失敗した時に使用
 $.ajax({
     type: 'GET',
     url: 'https://omocoro.jp/tag/%E5%8C%BF%E5%90%8D%E3%83%A9%E3%82%B8%E3%82%AA/'

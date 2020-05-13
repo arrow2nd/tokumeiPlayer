@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>匿名Player</title>
     <link rel="stylesheet" href="style.css">
-    <script  type="text/javascript" src="../src/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
-    <input id="exitButton" type="image" src="../img/exit.png">
-    <input id="inputArea" type="number" placeholder="1" min="1" oninput="limitValue(this)">
-    <input id="seekbar" type="range" value="0" min="0" max="100" step="1">
-    <div class="mainButton">
+    <div class="dragArea">
+        <div class="exitBtn">
+            <input id="exitButton" type="image" src="../img/exit.png">
+        </div>
+        <div class="center">
+            <input id="inputArea" type="number" placeholder="1" min="1" oninput="limitValue(this)">
+        </div>
+    </div>
+    <div class="buttons center">
+        <input id="seekbar" type="range" value="0" min="0" max="100" step="1">
         <input id="searchButton" type="image" src="../img/search.png">
         <input id="prevButton" type="image" src="../img/prev.png">
         <input id="playButton" type="image" src="../img/play.png">
         <input id="nextButton" type="image" src="../img/next.png">
         <input id="shuffleButton" type="image" src="../img/shuffle.png">
     </div>
+    <script type="text/javascript" src="../src/jquery-3.5.1.min.js"></script>
     <script src="../src/player.js"></script>
 </body>
 </html>

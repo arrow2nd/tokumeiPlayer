@@ -4,7 +4,7 @@ const { app, Menu, BrowserWindow } = require('electron');
 // ウインドウを作成、index.html をロード
 function createWindow () {
     const win = new BrowserWindow({ 
-        width: 250,
+        width: 255,
         height: 105,
         transparent: true,
         frame: false,
@@ -29,6 +29,7 @@ if(!doubleboot){
 // このメソッドは、Electron が初期化処理と
 // browser window の作成準備が完了した時に呼び出されます。
 // 一部のAPIはこのイベントが発生した後にのみ利用できます。
+app.allowRendererProcessReuse = true;
 app.whenReady().then(createWindow);
 
 // 全てのウィンドウが閉じられた時に終了します。

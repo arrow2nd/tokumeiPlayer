@@ -9,12 +9,15 @@ builder.build({
             'view',
             'package.json'
         ],
-/*        'mac': {
+        /*'mac': {
             'target': 'dmg',
             'icon': '../img/icon.ico'
         },*/
         'win': {
-            'target': 'nsis',
+            'target': [
+                'nsis',
+                'portable'
+            ],
             'icon': '../img/icon.ico'
          },
          "nsis": {

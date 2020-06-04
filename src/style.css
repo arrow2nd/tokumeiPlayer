@@ -1,26 +1,10 @@
 body{
-     background-color: #080808f3;
-     color: #fdffff;
-     border-radius: 5px;
-     -webkit-user-select: none;
-}
-
-.center {
-    text-align: center;
-}
-
-.dragArea {
-    -webkit-app-region: drag;
-}
-
-.buttons {
-    margin-top: -8px;
-}
-
-.exitBtn {
-    margin-top: -7px;
-    margin-bottom: -7px;
-    text-align: right;
+    background-color: #080808f3;
+    color: #fdffff;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
 }
 
 input {
@@ -28,10 +12,21 @@ input {
     -webkit-app-region: no-drag;
 }
 
+/* ドラッグ可能エリア */
+.dragArea {
+    -webkit-app-region: drag;
+}
+
+/* 入力エリア */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+.input {
+    height: 24px;
+    text-align: center;
 }
 
 #inputArea {
@@ -42,12 +37,13 @@ input[type="number"]::-webkit-inner-spin-button {
     text-align: center;
 }
 
+/* シークバー */
 #seekbar[type="range"] {
     -webkit-appearance: none;
     appearance: none;
     background-color: #3333338c;
     height: 2px;
-    width: 95%;
+    width: 90%;
 }
 
 #seekbar[type="range"]:focus,
@@ -67,6 +63,21 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: #c9c9c9;
     border-radius: 50%;
     -webkit-border-radius: 50%;
+}
+
+/* 終了ボタン */
+.exitBtn {
+    height: 24px;
+    margin-right: 7px;
+    margin-bottom: -6px;
+    text-align: right;
+}
+
+/* 下部ボタン */
+.buttons {
+    height: 57px;
+    margin-top: -5px;
+    text-align: center;
 }
 
 #searchButton {

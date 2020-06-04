@@ -4,18 +4,19 @@ const { app, Menu, BrowserWindow } = require('electron');
 // ウインドウを作成、index.html をロード
 function createWindow () {
     const win = new BrowserWindow({ 
-        width: 255,
-        height: 105,
+        width: 256,
+        height: 104,
         transparent: true,
         frame: false,
+        maximizable: false,
         resizable: false,
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: false,
             preload: __dirname + '/preload.js'
-        }
+        },
     });
-    win.loadFile('view/index.html');
+    win.loadFile(__dirname + '/index.html');
     Menu.setApplicationMenu(null);
     //win.webContents.openDevTools();
 };

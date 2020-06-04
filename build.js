@@ -1,28 +1,31 @@
-const builder = require('electron-builder');
+const builder = require("electron-builder");
 
 builder.build({
     config: {
-        'appId': 'com.electron.tokumei',
-        'files': [
-            'img',
-            'src',
-            'view',
-            'package.json'
+        "appId": "com.electron.tokumei",
+        "files": [
+            "img",
+            "src",
+            "package.json"
         ],
-        /*'mac': {
-            'target': 'dmg',
-            'icon': '../img/icon.ico'
-        },*/
-        'win': {
-            'target': [
-                'nsis',
-                'portable'
+        "win": {
+            "target": [
+                "nsis",
+                "portable"
             ],
-            'icon': '../img/icon.ico'
+            "icon": "../icons/icon.ico"
          },
          "nsis": {
             "oneClick": false,
             "allowToChangeInstallationDirectory": true
-          }
+         },
+         "linux": {
+             "target": [
+                 "deb",
+                 "pacman"
+             ],
+             "icon": "../icons",
+             "category": "Network"
+         }
     }
 });

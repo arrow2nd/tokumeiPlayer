@@ -32,9 +32,9 @@ Webラジオ「匿名ラジオ」を再生する非公式のアプリケーシ�
 <details>
 <summary>なんでこんな長いの？</summary>
 
-普通にインストールしようとしたら依存関係の問題とやらで怒られたからです
+普通にインストールしようとしたら、libappindicator-sharpの依存関係を解決できないよ！って怒られたからです
 
-[こちら](https://github.com/electron-userland/electron-builder/issues/4181)を参考にしました…
+[こちらのissue](https://github.com/electron-userland/electron-builder/issues/4181)を参考にしました…
 
 </details>
 

@@ -1,10 +1,14 @@
 {
   "name": "tokumeiplayer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Webラジオ「匿名ラジオ」を再生する非公式のソフトウェアです",
   "main": "src/main.js",
   "scripts": {
     "start": "electron ."
+  },
+  "author": {
+    "name": "arrow2nd",
+    "email": "arrow2nd_workspace@zohomail.com"
   },
   "license": "ISC",
   "devDependencies": {

@@ -11,34 +11,28 @@ Webラジオ「匿名ラジオ」を再生する非公式のアプリケーシ�
 ## インストール方法
 
 ### Windowsインストーラー版
-1.ダウンロードしたファイルをダブルクリックしてください
-
-2.インストーラーの指示に従ってインストールを進めてください
-
-3.完了！
+1. ダウンロードしたファイルをダブルクリックしてください
+1. インストーラーの指示に従ってインストールを進めてください
+1. 完了！
 
 ### debパッケージ版
-1.ダウンロードしたファイルがあるディレクトリで端末を開いてください
-
-2.端末で```sudo apt install　[ファイル名]```を実行
-
-3.完了！！
+1. ダウンロードしたファイルがあるディレクトリで端末を開いてください
+1. 端末で```sudo apt install　[ファイル名]```を実行
+1. 完了！！
 
 ### pacmanパッケージ版
-1.ダウンロードしたファイルがあるディレクトリで端末を開いてください
-
-2.端末で```sudo pacman -U [ファイル名] --assume-installed libappindicator-sharp```を実行
+1. ダウンロードしたファイルがあるディレクトリで端末を開いてください
+1. 端末で```sudo pacman -U [ファイル名] --assume-installed libappindicator-sharp```を実行
+1. 完了！！！
 
 <details>
-<summary>なんでこんな長いの？</summary>
+<summary>--assume-installed libappindicator-sharpがついてる理由</summary>
 
 普通にインストールしようとしたら、libappindicator-sharpの依存関係を解決できないよ！って怒られたからです
 
 [こちらのissue](https://github.com/electron-userland/electron-builder/issues/4181)を参考にしました…
 
 </details>
-
-3.完了！！！
 
 ## 注意
 - インストール/初回実行時にアンチウィルスソフト等が反応する場合があります

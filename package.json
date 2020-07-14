@@ -10,7 +10,7 @@
     "name": "arrow2nd",
     "email": "arrow2nd_workspace@zohomail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^8.2.4",
     "electron-builder": "^22.5.1"

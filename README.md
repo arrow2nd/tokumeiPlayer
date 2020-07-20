@@ -20,16 +20,7 @@ Webラジオ「匿名ラジオ」を再生する非公式のアプリケーシ�
 
 ### pacmanパッケージ版
 1. ダウンロードしたファイルがあるディレクトリで端末を開く
-1. 端末で```sudo pacman -U [ファイル名] --assume-installed libappindicator-sharp```を実行
-
-<details>
-<summary>--assume-installed libappindicator-sharpについて</summary>
-
-普通にインストールしようとすると、libappindicator-sharpの依存関係を解決できないよ！って怒られるからです
-
-[こちらのissue](https://github.com/electron-userland/electron-builder/issues/4181)を参考にしました…
-
-</details>
+1. 端末で```sudo pacman -U [ファイル名]```を実行
 
 ## 注意
 - インストール/初回実行時にアンチウィルスソフト等が反応する場合があります

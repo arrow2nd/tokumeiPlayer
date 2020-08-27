@@ -9,7 +9,7 @@
 
 <body>
     <div class="dragArea">
-        <div class="exitBtn">
+        <div class="exit copyProtection">
             <input id="exitButton" type="image" src="../img/exit.png">
         </div>
         <div class="input">
@@ -18,12 +18,14 @@
     </div>
     <div class="buttons">
         <input id="seekbar" type="range" value="0" min="0" max="100" step="1">
-        <input id="searchButton" type="image" src="../img/search.png">
-        <input id="prevButton" type="image" src="../img/prev.png">
-        <input id="playButton" type="image" src="../img/play.png">
-        <input id="nextButton" type="image" src="../img/next.png">
-        <input id="shuffleButton" type="image" src="../img/shuffle.png">
-</div>
+        <span class="copyProtection">
+            <input id="searchButton" type="image" src="../img/search.png">
+            <input id="prevButton" type="image" src="../img/prev.png">
+            <input id="playButton" type="image" src="../img/play.png">
+            <input id="nextButton" type="image" src="../img/next.png">
+            <input id="shuffleButton" type="image" src="../img/shuffle.png">
+        </span>
+    </div>
     <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
     <script src="player.js"></script>
 </body>

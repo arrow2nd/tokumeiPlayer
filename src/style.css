@@ -66,7 +66,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 /* 終了ボタン */
-.exitBtn {
+.exit {
     height: 24px;
     margin-right: 7px;
     margin-bottom: -6px;
@@ -78,6 +78,7 @@ input[type="number"]::-webkit-inner-spin-button {
     height: 57px;
     margin-top: -5px;
     text-align: center;
+    user-select: none;
 }
 
 #searchButton {

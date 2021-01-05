@@ -1,6 +1,6 @@
 {
   "name": "tokumeiplayer",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Webラジオ「匿名ラジオ」を再生する非公式のソフトウェアです",
   "main": "src/main.js",
   "scripts": {
